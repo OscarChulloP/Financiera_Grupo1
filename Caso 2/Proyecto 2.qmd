@@ -1,0 +1,209 @@
+---
+title: "Proyecto de trabajo N° 2"
+subtitle: "Matemática Financiera"
+format: 
+  revealjs:
+    transition: convex
+    preview-links: auto
+    theme: dark
+    slide-number: true
+    logo: unsaac.png
+    css: logo.css
+    incremental: true
+    embed-resources: true
+editor: visual
+institute: "Universidad Nacional de San Antonio Abad del Cusco"
+lang: es
+engine: knitr
+author: "Grupo 1"
+---
+
+## Integrantes:
+
+- Chullo Puclla, OSCAR
+- Palomino Pampañaupa, WITMAN DEYVIS
+- Troncoso Vargas, ALEXANDER RAPHAEL
+- Villacorta Aymachoque, FATIMA PATRICIA
+- Villavicencio Visa, JOSE GABRIEL
+- Yabar arone, RONY LUIS
+
+# Proyecto de trabajo
+
+## Situación N° 2{.scrollable}
+
+Un docente universitario desea adquirir un inmueble en los alrededores de Wanchaq, para lo cual busca planes de financiamiento en el mercado inmobiliario. Si se nombró a los 35 años como docente auxiliar y logró ascender hacia las categorías de asociado y principal. 
+Analice los siguientes casos: 
+
+::: panel-tabset
+
+### Caso a)
+
+Investigue en las distintas inmobiliarias sobre los precios de departamentos y sus tasas de interés correspondientes. Considere que la persona puede hacer un pago inicial de hasta el 20% del precio de venta y desea saber las cuotas de pago en 10, 15 y 20 años respectivamente. 
+
+
+### Caso b)
+
+Fijado un plan de pago, analice la posibilidad de realizar amortizaciones a la deuda considerando que el docente tiene un gasto fijo de S/800 el cual aumenta según la inflación del país. Indique las opciones que brinda cada entidad financiera y escoja la mejor 
+
+### Caso c)
+
+Proponga planes de amortización para que pueda pagar el inmueble antes de los años de referencia, además considere la opción de depositar parte de su salario en una cuenta de ahorro para ganar intereses, dependiendo de su categorla (auxiliar, asociado y principal)
+
+:::
+
+## Caso a) {.scrollable}
+
+**Informe de la investigación**
+
+Se ha realizado una consulta en varias inmobiliarias como son el caso de [Urbania](https://urbania.pe/) y [REMAX TERRA CUSCO](https://global.remax.com/es/oficinas/peru/cusco/remax-terra/1002151) y el [Degol](https://grupodegol.com/)
+
+Se ha obtenido la siguiente información:
+
+| **Inmobiliaria** 	| **Área** 	| **Caracteristicas** 	| **Costo de Venta** 	|
+|---	|---	|---	|---	|
+| **Urbania** 	| $61m^2$ 	| Piso 9; Ascensor; 2 dormitorios y 1 baño 	| S/. 250,000.00 	|
+| **REMAX** 	| $81m^2$ 	| Piso 3; Ascensor; 3 habitaciones y 2 baños 	| S/. 460,000.00 	|
+| **Degol** 	| $94.28m^2$ 	| Piso 5; Ascensor; 3 habitaciones y 2 baños 	| S/. 376,466.00 	|
+
+
+Dadas estas ofertas se ha seleccionado como oferta tentativa la realizada por el grupo `Degol` que nos ofreció el siguiente plan:
+
+1) Pago completo 100% S/. 376,466.00 
+
+2) Pago en partes:
+
+- Cuota inicial de 10% :S/. 37,646.60
+
+- Crédito Hipotecario del 90% :S/.  338819.40
+
+Dado el crédito hipotecario se ha hecho consultas con respecto a los periodos de pago:
+
+- [10 años](Elige tu Crédito Hipotecario _ Comparabien10.pdf)
+
+- [15 años](Elige tu Crédito Hipotecario _ Comparabien15.pdf)
+
+- [20 años](Elige tu Crédito Hipotecario _ Comparabien20.pdf)
+
+## Caso b) {.scrollable}
+
+Los docentes universitarios presentan un gasto fijo de S/800 mensuales hipoteticamente, tomando en cuenta la situación actual del pais, se estima una tasa promedio de inflación del 3.1% según el Ministerio de Economía y Finanzas (MEF) 
+
+Estimamos este valor adquisitivo en los periodos de 10, 15 y 20 años:
+
+**Formula:**
+
+$$VA=\frac{VP}{(1+i)^n}$$
+
+Donde:
+
+- VA: Valor Adquisitivo
+- VP: Valor Presente
+- i: tasa de inflación
+- n: número de periodos
+
+$$800=\frac{VP_{10}}{(1+0.031)^{10}}=$$
+
+$$VP_{10}=1,085.62$$
+
+$$800=\frac{VP_{15}}{(1+0.031)^{15}}=$$
+
+$$VP_{15}=1,264.65$$
+
+$$800=\frac{VP_{20}}{(1+0.031)^{20}}=$$
+
+$$VP_{20}=1,473.21$$
+
+Dados los resultados anteriores, se ha determinado la posibilidad de adquisicion de dicho inmueble en base a la condición de docente universitario, los resultados obtenidos se muestran en la siguiente tabla:
+
+| **Condición** 	| **Remuneración** 	| **10 años** 	| **15 años** 	| **20 años** 	|
+|---	|---	|---	|---	|---	|
+| **Auxiliar** 	| S/. 4,400.00 	| NO 	| NO 	| NO 	|
+| **Asociado** 	| S/. 5,500.00 	| NO 	| SI 	| SI 	|
+| **Principal** 	| S/. 7,800.00 	| SI 	| SI 	| SI 	|
+
+A continuación se muestra una tabla comparativa de las opciones que nos brindan las entidades financieras:
+
+|  	| **Caja  Cusco** 	| **Caja M. Ica** 	| **Caja Arequipa** 	|
+|---	|---	|---	|---	|
+| **10 Años** 	| 5,041.65 	| 5,078.43 	| 5,099.43 	|
+| **15 Años** 	| 4,262.80 	| 4,307.70 	| 4,340.98 	|
+| **20 Años** 	| 3,937.97 	| 3,989.43 	| 4,032.47 	|
+
+## Caso c) {.scrollable}
+
+Con respecto a los resultados obtenidos, se podria establecer un plan de amortización solo para el docente **Principal** tomando9 en consideracion la Caja cusco
+
+**Plan de amortización 10 años**
+
+Deberia pagar S/. 5,041.65 segun la caja cusco, sin embargo evaluando una couta inversa de amortizacion a la tasa de interes de 12.65% sew deberia pagar S/. 5,012; a continuacion se presenta la demostración:
+
+```{r,echo=TRUE}
+p<-340000.00 #prestamo
+i<-0.1268/12
+n<-12*10
+#Cuota
+CA<-(p*i*(1+i)^n)/((1+i)^n-1);CA
+```
+
+```{r,echo=TRUE}
+CA=5012
+p<-340000.00
+i<-0.1268/12
+n<-log(CA/(CA-p*i))/log(1+i);n
+```
+
+#### Plan de amortización docente Asociado: 15 años
+
+```{r,echo=TRUE}
+CA=5500-1264.65
+p<-340000.00
+i<-0.1268/12
+n<-log(CA/(CA-p*i))/log(1+i);n
+```
+
+El plan de 15 años equivale a un total de 180 cuotas mensuales, evaluando la amortización, el docente asociado no podrá amortizar el tiempo con efectividad, debido a que haciendo el pago maximo se tiene un igual numero d eperiodos de pago.
+
+#### Plan de amortización docente Asociado: 20 años
+
+```{r,echo=TRUE}
+CA=5500-1473.21
+p<-340000.00
+i<-0.1268/12
+n<-log(CA/(CA-p*i))/log(1+i);n
+```
+
+En este plan de amortización se ha podido reducir el numero de periodos de pago de 240 a 212 periodos, es decir que de los 20 años, podra amortizarlo a 17 años y 8 meses pagando cuotas de S/4026.79 
+
+#### Plan de amortización docente Principal: 10 años
+
+```{r,echo=TRUE}
+CA=7800-1085.62
+p<-340000.00
+i<-0.1268/12
+n<-log(CA/(CA-p*i))/log(1+i);n
+```
+
+Dado el periodo de 10 años, el docente principal podra amortizarlo en 73 periodos de pago o 6 años y 1 mes pagando una cuota mensual de S/. 6,714.38
+
+
+#### Plan de amortización docente Principal: 15 años
+
+```{r,echo=TRUE}
+CA=7800-1264.65
+p<-340000.00
+i<-0.1268/12
+n<-log(CA/(CA-p*i))/log(1+i);n
+```
+
+Dado el periodo de 15 años, el docente principal podra amortizarlo en 76 periodos de pago o 6 años y 4 meses pagando una cuota mensual de S/. 6,535.35
+
+#### Plan de amortización docente Principal: 20 años
+
+```{r,echo=TRUE}
+CA=7800-1473.21
+p<-340000.00
+i<-0.1268/12
+n<-log(CA/(CA-p*i))/log(1+i);n
+```
+Dado el periodo de 20 años, el docente principal podra amortizarlo en 80 periodos de pago o 6 años y 8 meses pagando una cuota mensual de S/. 6,535.35
+
